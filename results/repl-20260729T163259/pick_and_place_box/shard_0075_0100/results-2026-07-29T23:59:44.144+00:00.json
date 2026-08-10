@@ -1,0 +1,210 @@
+{
+  "num_processes": 1,
+  "elapsed_time": 1675.2537143230438,
+  "num_requested_evaluations": 25,
+  "num_evaluated": 25,
+  "num_success": 1,
+  "success_rate": 0.04,
+  "evaluations": [
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 75,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 76,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 77,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 78,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 79,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 80,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 81,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 82,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 83,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 84,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 85,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 86,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 87,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 88,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 89,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 90,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 91,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 92,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 93,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 94,
+      "is_pending": false,
+      "total_time": 0.2,
+      "is_success": true,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 95,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 96,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 97,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 98,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    },
+    {
+      "skill_type": "pick_and_place_box",
+      "scenario_index": 99,
+      "is_pending": false,
+      "total_time": 15.0,
+      "is_success": false,
+      "failure_message": null
+    }
+  ]
+}

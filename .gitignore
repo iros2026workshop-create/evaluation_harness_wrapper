@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pt
+*.recording.html
+.venv/
+.DS_Store

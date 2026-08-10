@@ -1,0 +1,6 @@
+{
+  "skill": "pick_and_place_box",
+  "threshold_seconds": 1.0,
+  "indices": [6, 94, 116, 140, 146],
+  "note": "Report success in 0.2-0.3s before the policy meaningfully acts. Present in all ten retained runs across three decoder families and eight checkpoints. Excluded under R1; rates reported over the remaining 195 scenes."
+}
