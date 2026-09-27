@@ -622,8 +622,8 @@ def test_shard(checkpoint: str, replan_k: int = 0):
         index_start=0,
         index_end=3,
         run_id=run_id,
-        n_recordings=2,
         checkpoint=checkpoint,
+        n_recordings=2,
         replan_k=replan_k,
     )
 
@@ -680,12 +680,12 @@ def run_replication(checkpoint: str, replan_k: int = 0):
         "checkpoint": checkpoint,
         "replan_k": replan_k,
     }
-
+    N_RECORDINGS_PER_SHARD = 1
     shard_args = []
     for skill in SKILLS:
         for start in range(0, NUM_EVALUATIONS, SHARD_SIZE):
             end = min(start + SHARD_SIZE, NUM_EVALUATIONS)
-            shard_args.append((skill, start, end, run_id, 1, checkpoint, replan_k))
+            shard_args.append((skill, start, end, run_id, checkpoint, N_RECORDINGS_PER_SHARD, replan_k))
 
     print(f"\n### Phase 3 replication  run_id={run_id} ###")
     print(f"  checkpoint   : {checkpoint}")
@@ -756,9 +756,9 @@ def run_replication_remote(run_id: str, checkpoint: str, replan_k: int = 0):
         "shard_size": SHARD_SIZE, "policy": policy_label,
         "checkpoint": checkpoint, "replan_k": replan_k,
     }
+    N_RECORDINGS_PER_SHARD = 1
     shard_args = [
-        (s, st, min(st + SHARD_SIZE, NUM_EVALUATIONS), run_id, 1,
-         checkpoint, replan_k)
+        (s, st, min(st + SHARD_SIZE, NUM_EVALUATIONS), run_id, checkpoint, N_RECORDINGS_PER_SHARD, replan_k)
         for s in SKILLS
         for st in range(0, NUM_EVALUATIONS, SHARD_SIZE)
     ]
