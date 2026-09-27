@@ -44,7 +44,7 @@ modal run lbm_phase3.py::screen    --run-id=repl-YYYYMMDDTHHMMSS
 ```
 
 Total cost to reproduce every row of the paper's ablation table: approximately
-\$34 and 38 minutes, assuming clean execution.
+\$34, assuming clean execution.
 
 ---
 
