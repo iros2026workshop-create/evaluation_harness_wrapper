@@ -44,7 +44,7 @@ modal run lbm_phase3.py::screen    --run-id=repl-YYYYMMDDTHHMMSS
 ```
 
 Total cost to reproduce every row of the paper's ablation table: approximately
-\$34, assuming clean execution.
+\$34 and 38 minutes, assuming clean execution.
 
 ---
 
@@ -83,6 +83,7 @@ results/trivial_indices.json  the five screened scenario indices
 
 Trained checkpoints are attached to the GitHub release rather than committed,
 since they are ~45 MB each.
+
 
 ---
 
@@ -125,6 +126,12 @@ rather than assumed; `lbm_phase2_probe.py` contains the probes.
 Only the rotation convention was genuinely underdetermined — the format
 document describes it as a truncated and flattened rotation matrix without
 specifying rows versus columns. It was resolved by orthonormality testing.
+
+---
+
+## Environment
+
+All runs execute in a Modal container built from the image definition in lbm_phase3.py: Debian slim, Python 3.12, torch 2.3.0, torchvision 0.18.0, numpy<2, and lbm_eval wheels 1.1.0, with one L4 GPU per shard. CUDA comes from torch's bundled build. The image also writes the EGL vendor ICD and warms the Drake asset cache at build time (see "Things that will bite you"). A small number of packages, including tqdm and the apt system libraries, are installed unpinned; a fully resolved lockfile is not currently provided.
 
 ---
 
@@ -201,6 +208,6 @@ property of the method.
 
 ## License and attribution
 
-The `lbm_eval` benchmark, its wheels, and the demonstration data are
-Toyota Research Institute's, distributed under their own terms. This repository
-contains only wrapper code and results.
+The LBM Eval benchmark, its wheels, and the demonstration data are Toyota Research Institute's. The benchmark software (v1.1.0) is dual-licensed under MIT and Apache 2.0; see LICENSE-MIT and LICENSE-APACHE in TRI's repository. The demonstration data is publicly distributed by TRI at the S3 URL above and is not redistributed here. This repository contains only wrapper code, trained checkpoints, and results.
+
+Note that TRI's current release is a Fall 2025 snapshot, newer than the Spring 2025 version used in their published LBM paper; TRI states it will not necessarily reproduce that paper's results. This work replicates the benchmark harness at scale, not TRI's published numbers.
