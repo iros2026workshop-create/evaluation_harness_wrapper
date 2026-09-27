@@ -6,7 +6,7 @@ Code and artifacts for running Toyota Research Institute's Drake-based
 wall-clock per replication.
 
 This repository accompanies the paper *Closed-Loop Physics-Based Manipulation
-Evaluation at a Commodity Price: What \$3.50 Buys You*.
+Evaluation at a Commodity Price: What 4.4 GPU hours at \$3.50 Buys You*.
 
 **What this is not:** a policy-learning contribution. The trained policies here
 are deliberately small and their success rates are low. The point is the
