@@ -102,7 +102,7 @@ image = (
     modal.Image.debian_slim(python_version="3.12")
     .apt_install(*SYSTEM_LIBS)
     .pip_install(*WHEEL_URLS)
-    .pip_install("torch==2.3.0", "torchvision==0.18.0", "numpy", "tqdm")
+    .pip_install("torch==2.3.0", "torchvision==0.18.0", "numpy<2", "tqdm")
     .run_commands(
         "mkdir -p /usr/share/glvnd/egl_vendor.d",
         'echo \'{"file_format_version":"1.0.0",'
